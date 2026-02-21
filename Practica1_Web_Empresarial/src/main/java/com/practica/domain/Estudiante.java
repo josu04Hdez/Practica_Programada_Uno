@@ -23,6 +23,10 @@ public class Estudiante {
     private Integer idEstudiante;
 
     @NotBlank
+    @Size(max = 100)
+    private String nombre;
+
+    @NotBlank
     @Email
     @Size(max = 100)
     private String correo;

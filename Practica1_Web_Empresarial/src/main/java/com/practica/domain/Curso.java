@@ -25,7 +25,7 @@ public class Curso {
     private String nombre;
 
     @NotBlank
-    @Size(max = 100)
+    @Size(max = 255)
     private String descripcion;
 
     @NotNull
